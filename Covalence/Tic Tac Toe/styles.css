@@ -1,0 +1,53 @@
+#board {
+ padding: 30em;
+ text-align: center
+}
+.row {
+    clear: both;
+    width: 302px;
+    margin: 0 auto;
+}
+.row > div {
+    font-size: 75px;
+    cursor: pointer;
+}
+.left{
+    float: left;
+    height: 100px;
+    width: 100px;
+    border-right: 1px black solid
+}
+.right{
+    float: left;
+    height: 100px;
+    width: 100px;
+    border-left: 1px black solid
+}
+.top{
+    float: left;
+    height: 100px;
+    width: 100px;
+    border-bottom: 1px black solid
+}
+.bottom{
+    float: left;
+    height: 100px;
+    width: 100px;
+    border-top: 1px black solid 
+}
+.middle{
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+#title{
+    width: 804px;
+    clear: both;
+    
+}
+#winMessage{
+    width: 804px;
+    clear: both;
+    display: none;
+    text-align: center
+}
